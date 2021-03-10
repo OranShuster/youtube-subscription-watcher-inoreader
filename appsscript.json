@@ -1,0 +1,37 @@
+{
+  "timeZone": "GMT",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Drive",
+      "serviceId": "drive",
+      "version": "v2"
+    }, {
+      "userSymbol": "YouTubeContentId",
+      "serviceId": "youtubePartner",
+      "version": "v1"
+    }, {
+      "userSymbol": "Gmail",
+      "serviceId": "gmail",
+      "version": "v1"
+    }, {
+      "userSymbol": "YouTubeAnalytics",
+      "serviceId": "youtubeAnalytics",
+      "version": "v2"
+    }, {
+      "userSymbol": "YouTube",
+      "serviceId": "youtube",
+      "version": "v3"
+    }],
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "38"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/script.scriptapp", "https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/youtube","https://www.googleapis.com/auth/script.external_request"],
+  "executionApi": {
+    "access": "MYSELF"
+  },
+  "runtimeVersion": "V8"
+}
